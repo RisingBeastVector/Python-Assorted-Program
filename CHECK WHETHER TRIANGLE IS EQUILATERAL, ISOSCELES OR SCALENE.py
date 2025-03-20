@@ -1,0 +1,12 @@
+#PYTHON PROGRAM TO INPUT 3 SIDES OF A TRIANGLE AND
+#CHECK WHETHER TRIANGLE IS EQUILATERAL, ISOSCELES OR SCALENE.
+
+a = int(input('ENTER SIDE OF A TRIANGLE: '))
+b = int(input('ENTER SIDE OF A TRIANGLE: '))
+c = int(input('ENTER SIDE OF A TRIANGLE: '))
+if a==b and b==c :
+    print('IT IS A EQUILATERAL TRIANGLE')
+elif a==b or b==c :
+    print('IT IS A ISOSCELES TRIANGLE')
+else :
+    print('IT IS A SCALENE TRIANGLE')
