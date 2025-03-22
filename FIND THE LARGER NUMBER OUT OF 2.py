@@ -1,0 +1,8 @@
+#PYTHON PROGRAM TO INPUT 2 NUMBERS AND FIND THE LARGER NUMBER OUT OF 2.
+
+A = int(input("ENTER A NUMBER: "))
+B = int(input("ENTER A NUMBER: "))
+if A>B :
+    print(A, 'IS THE GREATER THAN',B)
+else :
+     print(B, 'IS THE GREATER THAN',A)
