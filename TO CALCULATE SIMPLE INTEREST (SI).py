@@ -1,0 +1,8 @@
+#WRITE A PROGRAM TO CALCULATE SIMPLE INTEREST (S.I.).
+P = float(input('ENTER PRINCIPAL AMOUNT: '))
+R = float(input('ENTER RATE OF INTEREST: '))
+T = float(input('ENTER TIME PERIOD: '))
+R1 = R/100
+SI = P*R1*T
+print('SIMPLE INTEREST (S.I.) IS: ', SI)
+print(R1)
