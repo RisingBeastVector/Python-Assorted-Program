@@ -1,0 +1,6 @@
+#PYTHON PROGRAM TO CHECK A NUMBER IS NEGATIVE OR POSITIVE.
+a = int(input('ENTER A NUMBER : '))
+if a>=0 :
+    print(a, 'IS A POSITIVE NUMBER')
+else :
+    print(a, 'IS A NEGATIVE NUMBER')
